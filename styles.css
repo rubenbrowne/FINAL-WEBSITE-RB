@@ -1,0 +1,233 @@
+/*Global styles*/
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(187, 193, 219, 0.7),rgba(4,9,30,0.7)), url(images/NEON.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+h1{
+   color: white;
+}
+
+p{
+   color: white;
+}
+
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+}
+nav img{
+   width: 150px;
+} 
+.nav-links{
+   flex: 1;
+   text-align: right;
+   }
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 45px;
+   position: relative;
+}
+.nav-links ul li a{
+   color: rgb(15, 0, 35);
+   text-decoration: none;
+   font-size: 18px;
+}
+.nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: white;
+   display: block;
+   margin: right;
+   transition: 0.2s;
+}
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+ .text-box{
+   width: 90%;
+   color: (15, 0, 35);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ .text-box h1{
+   font-size: 40px;
+ }
+ .text-box p{
+   margin: 10px 0 40px;
+   font-size: 21px;
+ }
+
+ body{
+   padding-bottom: 400px;
+ }
+    /*---- poster ----*/
+
+.Posters {
+   width: 80%;
+   margin:auto;
+   text-align: center;
+   padding-top: 100px;
+}    
+h2{
+   font-size: 36px;
+   font-weight: 600;
+}
+
+.p2{
+   font-size: black;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+
+   color: white;
+}
+.row{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: flex-end;
+   padding-top: 100px;
+}
+.column{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-content: flex-end;
+   padding: 50px;
+   margin: auto;
+}
+
+
+/*---- Typography ----*/
+
+.Typography {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 250px;
+   padding-bottom: 250px;
+
+   min-height: 100vh;
+   width: 100%;
+   background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(64, 7, 80, 0.7)),url(images/multicoloured2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: fit-content;
+}
+.media-container {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   display: flexbox;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 50px;
+   vertical-align: middle;
+   align-items: center;
+}
+
+.media-container .object-container {
+   flex: 1;
+   padding: 20px;
+   
+}
+
+.object-container {
+   font-size: 150%;
+   text-align: justify;
+   text-justify: inter-word;
+   flex-wrap: wrap;
+   vertical-align: middle;
+}
+.hover-box {
+   position: relative;
+   cursor:pointer;
+}
+div {
+   display: block;
+}
+.hide {
+   font-size: 80%;
+   display: none;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 10%;
+   text-align: left;
+ }
+ 
+.myDIV:hover + .hide {
+   display: block;
+   color: white;
+ }
+
+.myDIV:hover {
+   opacity: 0.1;
+}
+
+.myDIV {
+   position: relative;
+   text-align: center;
+   width: 80%;
+   max-width: 500px;
+}
+
+.pointer {
+   cursor: pointer;
+} 
+h2 {
+   font-size: 36px;
+   font-weight: 600;
+}
+
+/*typography titles*/
+
+
+.p2 {
+   color: black;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 22px;
+   
+}
+.p2 {
+   font-size: 26px;
+   font-weight: 400;
+   text-align: right;
+}
+h3{
+   font-size: 30px;
+   text-align: center;
+}
+/*---- dots inbetween posters-----*/
+
+.p2 {
+   font-size: 26px;
+   font-weight: 400;
+   text-align: center;
+   opacity: .0001;
+}
+
+
