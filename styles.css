@@ -76,9 +76,9 @@ nav img{
 @media(max-width:700px){
    .text-box h1{
       font-size: 40px;
+      }
    }
- }
- }
+}
  body{
    padding-bottom: 400px;
  }
@@ -90,49 +90,9 @@ nav img{
    text-align: center;
    padding-top: 100px;
 
-
-   min-height: 100vh;
-   width: 100%;
-   background-image:linear-gradient(rgba(64, 7, 80, 0.7),rgba(187, 193, 219, 0.7)),url(images/chair.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: fit-content;
 } 
 
-.myDIV:hover + .hide {
-   display: block;
-   color: white;
- }
 
-.myDIV:hover {
-   opacity: 0.1;
-}
-
-.myDIV {
-   position: relative;
-   text-align: center;
-   width: 80%;
-   max-width: 500px;
-}
-
-.pointer {
-   cursor: pointer;
-}
-.picRight{
-   float:right;
-   margin-right: 380px;
-   position: absolute;
-   bottom: 4px;
-    
-}
-.pic1{
-   float:right;
-   margin-right: 400px;
-   position: absolute;
-   bottom: 289px;
-   left: 3px;
-}
 
 h2{
    font-size: 36px;
