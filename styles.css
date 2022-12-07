@@ -97,7 +97,7 @@ background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(157, 150, 150, 0.
  background-position: center;
  background-size: cover;
  position: relative;
- height:min-content;
+ height:auto;
 }
 h2{
    font-size: 40px;
@@ -259,15 +259,20 @@ html{
    width: 100%;
    margin: auto;
    text-align: center;
+  
 
    min-height: 100vh;
    width: 100%;
    background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(187, 193, 219, 0.7)),url(images/coding2.png);
     background-position: center;
-    background-size:auto;
+    background-size:contain;
     position: relative;
-    height:min-content;
+    height: 100%;
 }
+
+/*------------- Reflection ---------------*/
+
+
 
 
 
