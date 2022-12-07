@@ -85,7 +85,21 @@ nav img{
    margin:auto;
    text-align: center;
    padding-top: 100px;
-}    
+
+
+   min-height: 100vh;
+   width: 100%;
+   background-image:linear-gradient(rgba(64, 7, 80, 0.7),rgba(187, 193, 219, 0.7)),url(images/chair.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: fit-content;
+} 
+.picRight{
+   float:right;
+   margin-left:20px;
+}
+   
 h2{
    font-size: 36px;
    font-weight: 600;
@@ -127,13 +141,6 @@ h2{
    padding-top: 250px;
    padding-bottom: 250px;
 
-   min-height: 100vh;
-   width: 100%;
-   background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(64, 7, 80, 0.7)),url(images/multicoloured2.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: fit-content;
 }
 .media-container {
    display: flex;
