@@ -111,6 +111,9 @@ h2{
 }
 h4{
    padding: 100px;
+   max-width: 400px;
+   margin-left: auto;
+   text-align: left;
 }
 h5{
    opacity: 0.00001;
@@ -225,7 +228,7 @@ h2 {
 
 .p2 {
    color: black;
-   font-size: 18px;
+   font-size: 28px;
    font-weight: 500;
    line-height: 22px;
    
@@ -251,6 +254,29 @@ h4{
    text-align: center;
    opacity: .0001;
    color: white;
+}
+
+/*------- HTML/CSS --------*/
+
+html{
+   width: 100%;
+   margin: auto;
+   text-align: center;
+
+   min-height: 100vh;
+   width: 100%;
+   background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(187, 193, 219, 0.7)),url(images/coding2.png);
+    background-position: center;
+    background-size:auto;
+    position: relative;
+    height:min-content;
+}
+.week3 img{
+ position:absolute;
+ margin-left: 2px;
+}
+h4{
+   text-align: right;
 }
 
 
