@@ -141,12 +141,12 @@ h5{
    width: 80%;
    margin: auto;
    text-align: center;
-   padding-top: 250px;
+   padding-top: 120px;
    padding-bottom: 250px;
 
    min-height: 100vh;
    width: 100%;
-   background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(64, 7, 80, 0.7)),url(images/raindrops.png);
+   background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(64, 7, 80, 0.7)),url(images/typo.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -259,14 +259,17 @@ h4{
    width: 100%;
    margin: auto;
    text-align: center;
+   
 
    min-height: 100vh;
    width: 100%;
    background-image:linear-gradient(rgba(187, 193, 219, 0.7),rgba(187, 193, 219, 0.7)),url(images/coding2.png);
     background-position: center;
-    background-size:cover;
+    background-size:contain;
     position: relative;
     height: 100%;
+    padding-top: 10px;
+    padding-bottom: 160px;
 }
 
 
@@ -276,8 +279,9 @@ h4{
 
 .Reflection{
    width: 100%;
-   margin: auto;
+   margin:auto;
    text-align: center;
+   
 
    min-height: 100vh;
    width: 100%;
@@ -286,11 +290,18 @@ h4{
     background-size:contain;
     position: relative;
     height: 100%;
-    
 }
 
+
 footer{
- display: block;  
+   text-align: center;
+   padding: 50px;
+   background-color: black;
+   flex-wrap: nowrap;
+   display: block;
+   justify-content: center;
+   align-items: flex-start;
 }
+
 
 
